@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Фотогалерея</title>
+    <style>
+        body { font-family: sans-serif; }
+        table { width: 100%; border-collapse: collapse; }
+        td { vertical-align: top; padding: 10px; }
+        .sidebar { width: 25%; background-color: #f0f0f0; }
+        .content { width: 75%; }
+
+        .gallery-table { width: 100%; }
+        .gallery-table td { text-align: center; padding: 5px; border: none; }  /* Убираем рамки */
+
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td class="sidebar">
+            <h2>Навигация</h2>
+            <ul>
+                
+                <li><a href="index.htm">Главная</a></li>
+                <li><a href="about.htm">Об авторе</a></li>
+                <li><a href="gallery.htm">Фотогалерея</a></li>
+		<li><a href="anim.htm">Анимации</a></li>
+		<li><a href="my-udoba.htm">Интерактивное видео</a></li>
+		<li><a href="sait.htm">Интерактивное изображение</a></li>
+		<li><a href="author-coggle.htm">Google карта</a></li>
+            </ul>
+        </td>
+        <td class="content">
+            <h1>Фотогалерея</h1>
+
+            <table class="gallery-table">
+                <tr>
+                    <td>
+                        <a href="images/photo1.jpg" target="_blank">
+                            <img src="images_photo1_thumb.jpg" alt="Фото 1" width="200">
+                        </a>
+                        <p>Описание фотографии 1: персик</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="images/photo2.jpg" target="_blank">
+                            <img src="images_photo2_thumb.jpg" alt="Фото 2" width="200">
+                        </a>
+                        <p>Описание фотографии 2: лес</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="images/photo3.jpg" target="_blank">
+                            <img src="mages_photo3_thumb.jpg" alt="Фото 3" width="200">
+                        </a>
+                        <p>Описание фотографии 3:море</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
